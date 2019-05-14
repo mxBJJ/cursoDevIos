@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEE900E22284F3B000AD5ECA /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE900E12284F3AF00AD5ECA /* cachorro.png */; };
 		FEEBB7D72284B24A0095EEAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEBB7D62284B24A0095EEAE /* AppDelegate.swift */; };
 		FEEBB7D92284B24A0095EEAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEBB7D82284B24A0095EEAE /* ViewController.swift */; };
 		FEEBB7DC2284B24A0095EEAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEBB7DA2284B24A0095EEAE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FEE900E12284F3AF00AD5ECA /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cachorro.png; sourceTree = "<group>"; };
 		FEEBB7D32284B24A0095EEAE /* PrimeiroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeiroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEBB7D62284B24A0095EEAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEEBB7D82284B24A0095EEAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		FEEBB7D52284B24A0095EEAE /* PrimeiroApp */ = {
 			isa = PBXGroup;
 			children = (
+				FEE900E12284F3AF00AD5ECA /* cachorro.png */,
 				FEEBB7D62284B24A0095EEAE /* AppDelegate.swift */,
 				FEEBB7D82284B24A0095EEAE /* ViewController.swift */,
 				FEEBB7DA2284B24A0095EEAE /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE900E22284F3B000AD5ECA /* cachorro.png in Resources */,
 				FEEBB7E12284B24B0095EEAE /* LaunchScreen.storyboard in Resources */,
 				FEEBB7DE2284B24B0095EEAE /* Assets.xcassets in Resources */,
 				FEEBB7DC2284B24A0095EEAE /* Main.storyboard in Resources */,
@@ -289,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cursoios.PrimeiroApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxcursoios.PrimeiroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cursoios.PrimeiroApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxcursoios.PrimeiroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
